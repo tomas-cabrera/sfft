@@ -21,14 +21,14 @@ install_reqs = ['scipy>=1.5.2',
                 'sep>=1.0.3',
                 'numba>=0.53.1',
                 'llvmlite>=0.36.0',
-                'pyfftw>=0.12.0']
+                'pyfftw>=0.12.0',
+                'numpy<2']
 
 setup(name = NAME,
       version = VERSION,
       description = DESCRIPTION,
       long_description = LONG_DESCRIPTION,
       long_description_content_type='text/markdown',
-      setup_requires = ['numpy'],
       install_requires = install_reqs,
       author = AUTHOR,
       author_email = AUTHOR_EMAIL,
